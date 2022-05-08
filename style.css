@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Roboto&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    background-color:rgb(228, 223, 204);
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#header{
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -10px;
+    
+    margin: 0;
+    padding:0;
+    height: 150px;
+    margin-top: 0px;
+    top: 0;
+    left:0;
+    font-size: 20px;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(235, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    
+    position: fixed;
+    overflow: hidden;
+    justify-content: space-between;
+    justify-self: end;
+    justify-items: left;
+    z-index: 1;
+    background:rgb(228, 223, 204);
+}
+
+#header-img{
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    justify-items: right;
+}
+
+#sax{
+    margin-top: 35px;
+    padding-left: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:300;
+    font-size: 40px;
+    color: #e2b00a;
+    font-style:oblique;
+    display: flex;
+    padding-left: -100px;
+    -webkit-text-stroke: 1px black;  
+
+}
+
+#pushdown{
+    padding-top: 150px;
+}
+
+#desc{
+    padding-top: 70px;
+}
+
+#sax-and-text{
+    display: flex;
+    justify-self: left;
+    justify-content: flex-end;
+    margin-right: 50px;
+    padding-right: 70px;
+    
+}
+
+#price, #features, #demonstration{
+    font-style:oblique;
+    font-size: larger;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e2b00a;
+    -webkit-text-stroke: 0.5px black;  
+    font-size: 25px;
+    padding: 10px;
+    margin-top: -20px;
+  
+}
+
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: right;
+
+}
+
+.nav-link ul{
+    
+    display: flex;
+    list-style: none;
+    display: inline;
+    justify-items:end;
+    cursor: pointer;
+    
+}
+
+
+
+#price:hover{
+    color: rgb(143, 2, 2);
+    transform: scale(1.1);
+    
+}
+
+#features:hover{
+    color: rgb(27, 76, 212);
+    transform: scale(1.1);
+}
+#demonstration:hover{
+    color: rgb(14, 139, 129);
+    transform: scale(1.1);
+}
+
+#form{
+    text-align: center;
+    
+    
+}
+#welcome{
+    position: relative;
+    margin-top: 60px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #b99008;
+    -webkit-text-stroke: black;
+    margin-bottom: 5px;
+}
+#email{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+}
+#submit{
+    cursor: pointer;
+    background-color: rgb(222, 223, 223);
+    border-radius: 5px;
+    width: 75px;
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif Times, 'Times New Roman', serif;
+
+    height: 30px;
+}
+
+#pricing{
+
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 20%;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+#dollar{
+    width: 80px;
+    height: 80px;
+}
+
+#awesome-price{
+    margin-top: -10px;
+    padding-left: 20px;
+}
+#awesome, #price-text{
+    padding-top: -5px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#price-text{
+    padding-bottom: 20px;
+    
+}
+
+#waterproof{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 20%;
+}
+
+#droplet{
+    width: 90px;
+    height: 90px;
+}
+
+#waterproofness{
+    margin-top: -10px;
+    padding-left: 45px;
+}
+
+#proof, #water-text{
+    padding-top: -5px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#water-text{
+    padding-bottom: 20px;
+}
+
+#tunes{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 20%;
+}
+
+#tone{
+    width: 80px;
+    height: 80px;
+}
+
+#sound{
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+#amazing-sound, #text-sound{
+    padding-top: -5px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#text-sound{
+    padding-bottom: 20px;
+}
+
+
+#video{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#john-coltrane{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e7ba24;
+    -webkit-text-stroke: 1px rgba(189, 22, 22, 0.164);
+}
+#yt{
+    border-radius: 10px;
+}
+
+
+#unique-prices{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    
+}
+
+#valuable{
+    margin-bottom: -40px;
+    color:#dbb846;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 1px rgb(184, 152, 152);
+    font-size: 50px;
+}
+
+
+
+ #price-boxes{
+    display: flex;
+    height: fit-content;
+    justify-content: space-around;
+    justify-items: stretch;
+    padding-top: 90px;
+    align-items: center;
+   
+}
+#tenor-sax{
+    width: 180px;
+    height: 200px;
+    background-color: #e7ba24;
+   
+    padding:10px;
+    box-shadow: 0 10px 20px rgba(235, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    border-radius: 10px;
+}
+
+#ts{
+    text-align: center;
+    color: #3b3009;
+    margin-top: 5px;
+    -webkit-text-stroke: 1px rgb(143, 135, 31);
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#bass-sax{
+    width: 180px;
+    height: 200px;
+    background-color: #c1d40ed2;
+     
+    padding:10px;
+    box-shadow: 0 10px 20px rgba(235, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+    border-radius: 10px;
+}
+
+
+#valve-sax{
+    width: 180px;
+    height: 200px;
+    background-color: #e7ba24;
+     
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(235, 29, 29, 0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+#valve-sax:hover{
+    transform: scale(1.2);
+}
+
+#bass-sax:hover{
+    transform: scale(1.2);
+}
+#tenor-sax:hover{
+    transform: scale(1.2);
+}
+#vs{
+    text-align: center;
+    color: #3b3009;
+    margin-top: 5px;
+    -webkit-text-stroke: 1px rgb(143, 135, 31);
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+
+#bs{
+    text-align: center;
+    color: #3b3009;
+    margin-top: 5px;
+    -webkit-text-stroke: 1px rgb(143, 135, 31);
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+#buynow{
+    align-items: center;
+    width: 90px;
+    margin-left: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#money-1000{
+    display: flex;
+    justify-content: center;
+    color:#4e4a3a;
+    font-size: 25px;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+}
+
+#best-price{
+    text-align: center;
+    font-family: 'Varela Round', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color:rgb(51, 20, 20) ;
+    text-overflow: ellipsis;
+    -webkit-text-stroke: 1px red;
+}
+
+#video-of-sax{
+    padding-top: 100px;
+}
+
+
+#footer{
+ margin-top: 100px;
+width: auto;
+margin-bottom: 0px;
+background-color: #856e1e;
+height: 50px;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+
+display: flex;
+justify-content: space-between;
+justify-items: center;
+}
+
+#copyright{
+    text-align: left;
+    margin-left: 10px;
+    font: 400;
+    font-size: 20px;
+    color: #f5ce4d;
+}
+
+#reserved{
+    text-align: left;
+    margin-right: 10px;
+    font: 400;
+    font-size: 20px;
+    color: #f5ce4d;
+}
+
